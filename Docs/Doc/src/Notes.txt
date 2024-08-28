@@ -1,0 +1,28 @@
+        // w-full means WIDTH FULL PAGE
+        // h-screen means HEIGHT OF SINGLE VIEW PORT OR SCREEN SIZE ONLY NOT FULL PAGE
+        // text-[50vh] OR text-[50wh] means viewport HEIGHT EITHER viewport WIDTH
+        // leading-none means ADDITIONAL TEXT HEIGHT 
+        // tracking-tight means WORD TIGHTNESS
+        // relative on nearest component only effect the top left right bottom, effect is the inner element position itself relative to PARENT
+        // absolute BRING THE COMPONENT OUT OF THE BOX AND POSITION IT WITH RESPECT TO THE PAGE
+        // top-1/2 BRING THE COMPONENT HALF OF SCREEN AND SAME FOR left-1/2 BRING TO THE RIGHT EXCEPT
+        // translate-x-[50%] bring the component to 50% of its own size, THE SIZE OF PARENT DOES NOT MATTER left as it is (-) and up (-)
+        // flex flex-col will position them in FORM OF COLUMNS
+        // ABSOLUTE if you want to position it yourslef with respect to viewport
+        // RELATIVE if you want to posiion it respect to parent <div></div>
+        // OVERFLOW-HIDDEN if you want to hide overflowing div which is mostlike the black bar
+        // P-[10PX] used for padding all round
+        // mb-mt-ml-mr for margin top left right bottom
+        // IF YOU WANT TO CENTRE div
+        
+        // CONDITIONAL RENDERING IN JSX , IF YOU WANT TO RENDER THE OBJECTS ON BASIS OF CONDITIONS THEN WE NEED TO CREATE A HASH MAP LIKE A JSON BODY AND PUT IN INITIAL VALUES
+        // THEN WE CAN USE THE CONDITIONAL STATEMENT USING TRUE OR FALSE TO RENDER THE OBJECTS LIKE BELOW
+        1--
+        ---------     { data.map ((item, index) => (12)) } -----
+        --------- IF YOU WAN TTO USE HTML COMPONENT THEN PASS IT IN THIS LIKE
+        2--
+        --------- { data.map ((item, index) => ( <Card data={item} /> 
+        --------- )) } ----here item is passed in Card Component created by you 
+
+        // React Hooks include useRef which is use to create reference of the material-Components and then to use it later
+        // useState() is a hook which is to store data
